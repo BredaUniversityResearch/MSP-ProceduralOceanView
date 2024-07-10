@@ -17,3 +17,4 @@
 *.npy filter=lfs diff=lfs merge=lfs -text -merge
 *.bin filter=lfs diff=lfs merge=lfs -text -merge
 *.mp4 filter=lfs diff=lfs merge=lfs -text -merge
+*.zip filter=lfs diff=lfs merge=lfs -text -merge
