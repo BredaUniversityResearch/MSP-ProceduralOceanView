@@ -6,12 +6,12 @@
 For this tutorial we will use one of the public servers from MSP Challenge. 
 
 
-1. Access https://server510.mspchallenge.info/api/doc
+1. Access https://server520.mspchallenge.info/api/doc
 
 ![alt text](image-1.png)
 
 
-2. Log in. You do that by requesting a new user session, with the credentials "user" and "test". Current sessionId for this time of writing is 11. 
+2. Log in. You do that by requesting a new user session, with the credentials "user" and "test". Current sessionId for this time of writing is 1. 
 
 
 ![alt text](image-2.png)
