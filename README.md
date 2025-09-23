@@ -1,6 +1,59 @@
 # MSP-ProceduralOceanView
 
-# Exporting POV config data from MSP
+# Creating and Exporting data from MSP Challenge into Procedural Ocean
+
+
+For this tutorial we will use one of the public servers from MSP Challenge. 
+
+
+1. Access https://server510.mspchallenge.info/api/doc
+
+![alt text](image-1.png)
+
+
+2. Log in. You do that by requesting a new user session, with the credentials "user" and "test". Current sessionId for this time of writing is 11. 
+
+
+![alt text](image-2.png)
+
+You should see the token.
+
+![alt text](image-3.png)
+
+3. Copy the api_access_token without quotes. Scroll up, and click on the green "Authorize" button.
+
+![alt text](image-4.png)
+
+
+
+Click authorize, then close.
+
+4. Scroll down to the CreatePOVConfig endpoint. Select the desired coordinates
+
+
+![alt text](image-5.png)
+
+5. Hit Execute. A downloadable .zip file will be offered for download. Extract data.
+
+![alt text](image-6.png)
+
+
+6. Use this file in the pov-launcher.exe application in the ProceduralOcean to import the data.
+
+![alt text](image-7.png)
+
+
+select option 2, and use the coordinates you entered. 
+
+![alt text](image-8.png)
+
+You may leave the rest blank/default.
+
+7. Play and have fun, either in Desktop or VR mode.
+
+![alt text](image-9.png)
+
+## Extra steps: Exporting POV config data from MSP
 
 Options are:
 
@@ -19,7 +72,7 @@ Options are:
 
 For all options keep in mind that the MSP game session needs to run at least a single simulation for it to calculate energy distribution. Otherwise it won't export any converter stations or energy cables.
 
-## Using POV Launcher
+## Extra steps: Using POV Launcher
 
 The POV Launcher can be used from the github repository directly , or from the package build as well.   
 
@@ -50,7 +103,7 @@ The export will be directly imported into the POV data folder which is MSP\_Proc
 The source code of the pov launcher script is maintained here: <https://github.com/BredaUniversityResearch/MSP-ProceduralGeneration/blob/main/MSP_ProceduralGen/Scripts/pov-launcher.ps1>  
 <https://github.com/BredaUniversityResearch/MSP-ProceduralGeneration/blob/main/MSP_ProceduralGen/Scripts/re-import-all-configs.ps1>
 
-## Export zip using API
+## Extra steps: Export zip using API
 
 - Open your favorite text editor and copy below lines  
   (double click in the code block to select all lines automatically)
@@ -97,7 +150,7 @@ Start-Process $filename
 - Then copy and paste the lines into an open Windows Powershell.
 - It will execute the lines and if everything goes to plan , it will download a exported pov config to a zip file and open it up
 
-## Export using the console command
+## Extra steps: Export using the console command
 
 This requires you to **install the MSPChallenge Server locally**. You could follow the extensive MSP  page, but you might as well just follow this shortened version:
 
@@ -146,7 +199,7 @@ To **export a POV config using the command line**:
 7. Notice the OK message , e.g.: Created config in directory: /srv/app/POV/4048536-3470232-4063746-3488599 .   
    Inside the docker container /srv/app is linked to your MSPChallenge-Server folder, so the POV/ folder is a subfolder of MSPChallenge-Server
 
-## Using exported directory config data in POV
+## Extra steps: Using exported directory config data in POV
 
 It's also possible to **directly use the directory output in POV**'s 08\_NonAssets folder. Either using symlinks or configure the command to output to the 08\_NonAssets folder (but requires you to install php locally):  
   
