@@ -24,7 +24,7 @@ You may leave the rest blank/default.
 For this tutorial we will use one of the public servers from MSP Challenge. 
 
 
-1. Access https://server520.mspchallenge.info/api/doc
+1. Access https://server.mspchallenge.info/api/doc
 
 ![alt text](image-1.png)
 
