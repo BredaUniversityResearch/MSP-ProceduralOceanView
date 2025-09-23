@@ -33,6 +33,11 @@ Click authorize, then close.
 
 ![alt text](image-5.png)
 
+To find the coordinates you're interested in, go to http://bboxfinder.com/ and use the EPSG:3035 coordinate system. Select the box tool, and copy the coordinates it shows you in the lower-left corner.
+
+![alt text](<Screenshot 2025-09-23 121207-1.png>)
+
+
 5. Hit Execute. A downloadable .zip file will be offered for download. Extract data.
 
 ![alt text](image-6.png)
