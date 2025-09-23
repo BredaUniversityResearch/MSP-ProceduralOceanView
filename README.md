@@ -1,6 +1,24 @@
 # MSP-ProceduralOceanView
 
-# Creating and Exporting data from MSP Challenge into Procedural Ocean
+## Directly export data from MSP Challenge into Procedural Ocean using POV launcher
+
+1. Start pov-launcher.exe application in the ProceduralOcean and choose "Import POV Config"
+
+![alt text](image-7.png)
+
+
+select option 2, and use the coordinates you entered. 
+
+![alt text](image-8.png)
+
+You may leave the rest blank/default.
+
+2. Play and have fun, either in Desktop or VR mode.
+
+![alt text](image-9.png)
+
+
+# Creating and Exporting data from MSP Challenge manually
 
 
 For this tutorial we will use one of the public servers from MSP Challenge. 
@@ -24,12 +42,9 @@ You should see the token.
 
 ![alt text](image-4.png)
 
-
-
 Click authorize, then close.
 
 4. Scroll down to the CreatePOVConfig endpoint. Select the desired coordinates
-
 
 ![alt text](image-5.png)
 
@@ -37,26 +52,13 @@ To find the coordinates you're interested in, go to http://bboxfinder.com/ and u
 
 ![alt text](<Screenshot 2025-09-23 121207-1.png>)
 
-
-5. Hit Execute. A downloadable .zip file will be offered for download. Extract data.
+5. Hit Execute. A downloadable .zip file will be offered for download. 
 
 ![alt text](image-6.png)
 
-
-6. Use this file in the pov-launcher.exe application in the ProceduralOcean to import the data.
+6. If you extract the data into a folder next to the POV launcher exe, the POV launcher will list it to start a Desktop or VR mode.
 
 ![alt text](image-7.png)
-
-
-select option 2, and use the coordinates you entered. 
-
-![alt text](image-8.png)
-
-You may leave the rest blank/default.
-
-7. Play and have fun, either in Desktop or VR mode.
-
-![alt text](image-9.png)
 
 ## Extra steps: Exporting POV config data from MSP
 
