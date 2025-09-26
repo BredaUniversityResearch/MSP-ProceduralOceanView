@@ -1,4 +1,6 @@
 # Data Access Terms and Licensing Agreement 
+26 September 2025
+
 
 ## Terms of Use
 The data compilation that can be accessed through the MSP Platform APIs (e.g., but not limited to, https://server.mspchallenge.info/api/doc) is provided under restricted access conditions. By accessing, downloading, or using this data through any application fromm the MSP Platform, you agree to comply with the following terms and conditions:
