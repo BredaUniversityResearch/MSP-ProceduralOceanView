@@ -201,6 +201,11 @@ From the POV Launcher:
 
 Select your imported scene and explore.
 
+
+![Underwater](Media/image-12.png)
+
+
+
 ---
 
 ## Using with MSP Challenge
@@ -215,6 +220,9 @@ Select your imported scene and explore.
 This workflow enables participants to not just plan in 2D, but to actually *experience* their plan — seeing how wind turbines look at scale, how shipping lanes interact with marine habitats, and what the underwater environment looks like beneath their planned infrastructure.
 
 The data flow is: **MSP Challenge → GeoServer → JSON export → IO (via POV Launcher)**.
+
+
+![Shipping Routes](Media/image-28.png)
 
 ---
 
@@ -287,6 +295,8 @@ IO connects to the [Open-Meteo](https://open-meteo.com/) free weather API at sta
 
 Users can modify all weather parameters through the in-game UI and reset to live data at any time.
 
+![Live weather](Media/image-29.png)
+
 ### Geographic Projections
 
 The primary projection is **ETRS89-extended / LAEA Europe (EPSG:3035)**, suitable for European maritime regions. Currently tested regions include the North Sea, Baltic Sea, Adriatic Sea, and Celtic Sea / Firth. New regions can be added by providing appropriate projection parameters and data layers.
@@ -347,6 +357,9 @@ You may leave the rest blank/default.
 | Interact with objects | Point controller + trigger |
 | Open main menu | Rotate hand sideways (like checking a watch) |
 | Navigate menu | Point with other controller + trigger |
+
+
+![Navigation](Media/image-27.png)
 
 ---
 
