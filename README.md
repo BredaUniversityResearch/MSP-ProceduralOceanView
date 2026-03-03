@@ -2,7 +2,13 @@
 
 **An open-source Unreal Engine 5 platform for immersive, data-driven 3D visualisation of maritime environments.**
 
+![Main Menu](Media/image-10.png)
+
 Immersive Ocean (IO) transforms two-dimensional geospatial data into real-time, interactive 3D maritime environments — complete with wind farms, shipping lanes, marine ecosystems, underwater terrain, and live weather. It is designed to support **Maritime Spatial Planning (MSP)** workshops, education, and research, and runs on both **PC** and **VR** (Meta Quest 2/3).
+
+
+![Main 3D world](Media/image-11.png)
+
 
 IO is developed by [Cradle Lab](https://www.buas.nl) at **Breda University of Applied Sciences** and was originally created as part of the EU H2020 [ILIAD project](https://www.ocean-twin.eu/) (Grant Agreement No. 101037643). It works alongside the [MSP Challenge](https://www.mspchallenge.info/) serious game, where co-located teams of stakeholders collaboratively develop and discuss maritime spatial plans.
 
@@ -53,6 +59,15 @@ IO is developed by [Cradle Lab](https://www.buas.nl) at **Breda University of Ap
 - **Time and weather simulation** — Control time of day, cloud cover, wave height, wind speed, visibility, and water turbidity. A time bar allows simulating environmental changes over time.
 - **Performance-optimised** — Uses Vertex Animation Textures for fish, shader-based buoyancy, simplified VR skybox, LOD streaming, and radius-based vessel culling to maintain smooth performance.
 - **Open data standards** — Built on EPSG:3035 projection with support for OGC protocols and interoperability with GeoServer and QGIS.
+
+
+![Main 3D world](Media/image-13.png)
+
+![Aquaculture Configuration](Media/image-16.png)
+
+![Particle Simulation](Media/image-17.png)
+
+
 
 ---
 
