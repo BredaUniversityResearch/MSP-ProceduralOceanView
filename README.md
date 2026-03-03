@@ -12,7 +12,7 @@ Immersive Ocean (IO) transforms two-dimensional geospatial data into real-time, 
 
 IO is developed by [Cradle Lab](https://www.buas.nl) at **Breda University of Applied Sciences** and was originally created as part of the EU H2020 [ILIAD project](https://www.ocean-twin.eu/) (Grant Agreement No. 101037643). It works alongside the [MSP Challenge](https://www.mspchallenge.info/) serious game, where co-located teams of stakeholders collaboratively develop and discuss maritime spatial plans.
 
-> **Video:** [Procedural Ocean Trailer](https://www.youtube.com/watch?v=PLACEHOLDER) · [Webinar on Procedural Content Generation in IO](https://www.youtube.com/watch?v=PLACEHOLDER)
+> **Video:** [Immersive Ocean Trailer](https://www.youtube.com/watch?v=PLACEHOLDER) · [Webinar on Immersive Content Generation in IO](https://www.youtube.com/watch?v=PLACEHOLDER)
 
 ---
 
@@ -77,7 +77,7 @@ Immersive Ocean is designed to be used as a complement to the MSP Challenge seri
 
 1. **Workshop participants** use MSP Challenge to collaboratively create maritime spatial plans (placing wind farms, defining shipping lanes, establishing marine protected areas, etc.) in competitive sessions that typically last 2+ hours.
 2. **Plans are exported** from MSP Challenge as a JSON configuration file.
-3. **Procedural Ocean ingests the JSON** and procedurally generates a full 3D maritime environment from it — terrain, infrastructure, marine life, weather, and all.
+3. **Immersive Ocean ingests the JSON** and procedurally generates a full 3D maritime environment from it — terrain, infrastructure, marine life, weather, and all.
 4. **Participants explore** their plan immersively (on PC or in VR), gaining a visceral understanding of the spatial relationships and impacts of their decisions.
 
 The tool can also be used standalone with any compatible geospatial data — you do not need MSP Challenge to use it.
@@ -192,7 +192,7 @@ Select your imported scene and explore.
 1. Participants play different stakeholder roles (energy companies, fisheries, environmental groups, shipping authorities, governments).
 2. They collaboratively plan how to use the ocean over the next 10–30 years.
 3. Plans are exported as a JSON configuration file.
-4. That file is imported into Procedural Ocean, which generates a full 3D visualisation of the plan.
+4. That file is imported into Immersive Ocean, which generates a full 3D visualisation of the plan.
 
 This workflow enables participants to not just plan in 2D, but to actually *experience* their plan — seeing how wind turbines look at scale, how shipping lanes interact with marine habitats, and what the underwater environment looks like beneath their planned infrastructure.
 
@@ -292,9 +292,9 @@ Data typically flows through MSP Challenge, which retrieves geospatial data from
 --- 
 # MSP-ProceduralOceanView
 
-## Directly export data from MSP Challenge into Procedural Ocean using POV launcher
+## Directly export data from MSP Challenge into Immersive Ocean using POV launcher
 
-1. Start pov-launcher.exe application in the ProceduralOcean and choose "Import POV Config"
+1. Start pov-launcher.exe application in the ImmersiveOcean and choose "Import POV Config"
 
 ![alt text](Media/image-7.png)
 
@@ -423,7 +423,7 @@ All contributions must be compatible with the **GPL-3.0** licence. Do not includ
 
 ## Licence
 
-The Procedural Ocean Platform and its source code are provided under the **[GNU General Public License Version 3 (GPL-3.0-only)](https://www.gnu.org/licenses/gpl-3.0.en.html)**.
+The Immersive Ocean Platform and its source code are provided under the **[GNU General Public License Version 3 (GPL-3.0-only)](https://www.gnu.org/licenses/gpl-3.0.en.html)**.
 
 You may freely copy, distribute, and modify the software provided that:
 
@@ -442,7 +442,7 @@ Full credits of developers, partners, and funders are available on the [MSP Chal
 
 ## Acknowledgements
 
-Procedural Ocean was developed by [Cradle Lab](https://www.buas.nl) at **Breda University of Applied Sciences**, the Netherlands.
+Immersive Ocean was developed by [Cradle Lab](https://www.buas.nl) at **Breda University of Applied Sciences**, the Netherlands.
 
 **Core development team:** Cradle research and development team.
 
