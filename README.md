@@ -88,31 +88,8 @@ The tool can also be used standalone with any compatible geospatial data — you
 
 IO is built around a modular, data-driven pipeline:
 
-```
-┌─────────────────┐     ┌──────────────┐     ┌─────────────────────┐     ┌───────────┐
-│  Data Sources    │────▶│  Data Parser  │────▶│     Data Pool       │────▶│  3D World  │
-│                  │     │              │     │  (centralised repo) │     │           │
-│ • MSP Challenge  │     │ • JSON       │     │ • Bathymetry        │     │ • Terrain  │
-│   (JSON config)  │     │ • GeoTIFF    │     │ • Sediments         │     │ • Assets   │
-│ • Open-Meteo API │     │ • Shapefile  │     │ • Wind data         │     │ • Sky      │
-│ • GeoServer      │     │ • WFS/WMS    │     │ • Ecology           │     │ • Water    │
-│ • EMODnet        │     └──────────────┘     │ • Infrastructure    │     └───────────┘
-│ • Copernicus     │                          └─────────┬───────────┘           │
-└─────────────────┘                                     │                      │
-                                                        ▼                      ▼
-                                              ┌─────────────────┐     ┌───────────────┐
-                                              │ Procedural Rule │     │ 3D Interface  │
-                                              │ Packs (PRPs)    │     │               │
-                                              │                 │     │ • UI layers    │
-                                              │ • Wind Turbines │     │ • Controls     │
-                                              │ • Fish          │     │ • Camera       │
-                                              │ • Shipping      │     │ • Mini map     │
-                                              │ • Benthos       │     └───────────────┘
-                                              │ • Wave Turbines │
-                                              │ • Fishing       │
-                                              │   Vessels       │
-                                              └─────────────────┘
-```
+![Architecture](Media/image-30.png)
+
 
 The **Data Pool** acts as the backbone — when any data source changes (e.g. a weather update or a shift in ocean currents), changes propagate automatically to all registered PRPs and the 3D world updates in real time.
 
